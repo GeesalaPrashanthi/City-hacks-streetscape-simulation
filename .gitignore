@@ -1,0 +1,35 @@
+# Keep dataset folder structure, but never commit image data
+/dataset/**
+!/dataset/**/
+!/dataset/**/.gitkeep
+
+/dataset_masked/**
+!/dataset_masked/**/
+!/dataset_masked/**/.gitkeep
+
+# Model checkpoints and artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+models/
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

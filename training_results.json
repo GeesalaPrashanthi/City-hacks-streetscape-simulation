@@ -1,0 +1,12 @@
+{
+  "classes": [
+    "Fair",
+    "Good",
+    "Poor"
+  ],
+  "best_val_acc": 0.5655172413793104,
+  "test_acc": 0.4827586206896552,
+  "train_size": 679,
+  "val_size": 145,
+  "test_size": 145
+}
